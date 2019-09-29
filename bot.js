@@ -10,8 +10,8 @@ client.on('ready', () => {
 });
 
 client.on('message', async (msg) => {
-  if (!msg.member.hasPermission("ADMINISTRATOR")) return msg.channel.send(`:x: Nincs jogod ehhez. A parancsot csak **adminisztrátor** joggal rendelkező tudja használni.`);
   if (msg.content === prefix + 'multicolor') { // A parancs a(z) a következő lesz: prefix + multicolor (például: m.multicolor) - ha a prefix m.-ra van állítva
+  if (!msg.member.hasPermission("ADMINISTRATOR")) return msg.channel.send(`:x: Nincs jogod ehhez. A parancsot csak **adminisztrátor** joggal rendelkező tudja használni.`); 
   const szerver = client.guilds.get("szerverID"); // ID alapján megkeresi a szervert
   if (!szerver) return console.log('Hiba > A szervert nem találom.') //Ha a szervert nem találja, kilogolja a consoleba a hibaüzenetet
   const szerep = szerver.roles.get("szerepID"); // Ha megtalálta a szervert, akkor a guilden belül megpróbálja megkeresni a szerepet ID alapján
