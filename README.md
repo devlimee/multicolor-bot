@@ -25,7 +25,7 @@ Először is kapcsold be azt, hogy a szerep megemlíthető legyen. Majd írd be 
 A Spelfy bottal is le tudod kérni az ID-t, csak simán írd be hogy `s.roleinfo @rang`
 
 # Hol tudom a botot 0/24 hostolni?
-Én a herokut ajánlom, Glitchen valamiért nem jó a kód
+Én a herokut ajánlom, Glitchen valamiért nem jó a kód, de hamarosan javítva lesz.
 
 # Hogyan tudom a botot elindítani?
 Először is, a `config.json`-ben írd át a token-t, majd írd be hogy `node bot.js`
