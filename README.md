@@ -42,3 +42,6 @@ Ha nagyobb rangja van, ellenőrizd, hogy van-e `SZEREPEK_KEZELÉSE` joga a botna
 Bot meghívó link: <a href="https://discordapp.com/oauth2/authorize?client_id=588420113120886804&scope=bot&permissions=2146958847"> kattints ide</a>
 Weboldalunk: <a href="https://spelfy.tk"> kattints ide</a>
 Discord szerverünk: <a href="https://discordapp.com/invite/RkHSFpE"> kattints ide</a>
+
+# A repo MIT license alatt áll
+Nézd meg a `LICENSE` fájlt több információért.
